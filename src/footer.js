@@ -2,9 +2,11 @@ import React from 'react';
 
 import { FaInstagram, FaTwitter, FaDribbble, FaLinkedin } from 'react-icons/fa';
 
+
+
 const Footer = () => {
   return (
-    <footer className="bg-[#0d0d2b] text-white py-10 ">
+    <footer className="bg-[#0d0d2b] text-white py-10  ">
       <div className="container mx-auto px-4 flex flex-wrap justify-between ">
         <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
           <h2 className="text-2xl font-semibold mb-4">Pavyon</h2>

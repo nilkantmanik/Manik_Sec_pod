@@ -1,18 +1,21 @@
 import React from 'react';
 import Card from './Card';
 
+
 const Dashboard = () => {
   const integrationAnalyticImage = "https://framerusercontent.com/images/X9sfUQgd9LFj1y450O2lzNBlK0.png";
 
   return (
-    <div className="py-10 bg-gray-900 text-white">
+    <div className="py-10 bg-gray-900 text-white mt-40 mb-60">
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold">Seamless integration for enhanced efficiency</h1>
-        <p className="text-lg mt-4">Seamlessly integrate different components and systems to improve efficiency, streamline processes, and maximize productivity.</p>
-        <button className="mt-6 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-full text-white font-semibold">Learn More</button>
+        <h1 className="text-5xl p-3 ">Seamless integration </h1>
+        <h1 className='text-5xl text-purple-300'>for enhanced efficiency</h1>
+        <p className="text-lg mt-6">Seamlessly integrate different components and systems to improve </p>
+        <p className='text-lg mb-2'>efficiency, streamline processes, and maximize productivity.</p>
+        <button className="mt-6 px-6 py-3 bg-blue-600 hover:bg-purple-300 rounded-md text-white font-semibold opacity-65 mb-5">Learn More</button>
       </div>
 
-      <div className="container mx-auto px-4 md:px-0 md:max-w-3xl">
+      <div className="container mx-auto px-4 md:px-0 md:max-w-3xl mt-11">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card title="Projects Stats">
             <p className="text-sm text-gray-400 mb-4">Updated 37 minutes ago</p>
@@ -72,6 +75,13 @@ const Dashboard = () => {
           <Card title="Performance Analytic">
             <div className="mb-4">
               <span className="text-sm text-gray-400">Daily</span>
+              <div className="mt-2 bg-gray-700 h-24"></div> {/* Placeholder for performance chart */}
+            </div>
+          </Card>
+
+          <Card title="Feedback Pot">
+            <div className="mb-4">
+              <span className="text-sm text-gray-400">Write</span>
               <div className="mt-2 bg-gray-700 h-24"></div> {/* Placeholder for performance chart */}
             </div>
           </Card>

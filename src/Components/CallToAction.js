@@ -1,5 +1,4 @@
 import React from 'react'
-
 function CallToAction() {
   return (
     < div className="container mx-auto px-4 py-16 flex flex-col items-center justify-center">

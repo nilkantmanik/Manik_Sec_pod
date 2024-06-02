@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+
+
 const testimonials = [
   {
     text: "This API has accelerated our data processing and analysis. The ease of data integration, which enables us to provide more personalized services to our customers, is invaluable. It has made a significant contribution to our company's data-driven strategy.",
@@ -31,11 +33,11 @@ const TestimonialCarousel = () => {
   };
 
   return (
-    <div className='flex justify-between items-center w-full max-w-screen-lg bg-opacity-0 p-1 rounded px-10'>
+    <div className='flex justify-between items-center w-full max-w-screen-lg bg-opacity-0 p-1 rounded px-10 mb-5'>
         <div className="relative w-full py-10 bg-gray-900 text-white">
-      <h2 className="text-center text-4xl font-bold mb-6">Discover what our customers </h2>
-      <h2 className='text-center text-4xl font-bold mb-6'>have to say about our SaaS solution</h2>
-      <p className='text-center'>Explore the testimonials and feedback from our valued customers to gain insights into their</p>
+      <h2 className="text-center text-5xl  mb-3 ">Discover what our customers </h2>
+      <h2 className='text-center text-5xl mb-6 text-purple-300'>have to say about our SaaS solution</h2>
+      <p className='text-center mt-2'>Explore the testimonials and feedback from our valued customers to gain insights into their</p>
       <p className='text-center'>experiences and satisfaction with our SaaS solution.</p>
       <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         {testimonials.map((testimonial, index) => (

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Card = ({ title, image, children }) => {
   return (
     <div className="bg-gray-800 rounded-lg p-6 shadow-lg">
@@ -7,7 +8,7 @@ const Card = ({ title, image, children }) => {
         <div className="mb-4">
           <img
             src={image}
-            alt=""
+            alt="sam94"
             className="w-full h-48 object-cover rounded-lg"
           />
         </div>
